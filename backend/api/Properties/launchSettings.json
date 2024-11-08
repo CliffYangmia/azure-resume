@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "azure_resume": {
+    "api": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7155",
+      "commandLineArgs": "--port 7001",
       "launchBrowser": false
     }
   }
