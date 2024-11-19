@@ -2,8 +2,8 @@ window.addEventListener('DOMContentLoaded', (event) =>{
     getVisitCount();
 })
 
-const functionApiUrl = config.functionEndpoint;
-const functionApi = 'http://localhost:7071/api/GetVisitCounts';
+const functionApiUrl = 'https://getvisitcounts.azurewebsites.net/api/GetVisitCounts?';
+const localfunctionApi = 'http://localhost:7071/api/GetVisitCounts';
 
 const getVisitCount = () => {
     let count = 0;
