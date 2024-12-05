@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const counterElement = document.getElementById("counter");
-    const functionApiUrl = 'http://localhost:7071/api/GetVisitCounts';
+    const functionApiUrl = 'https://getvisitcounts.azurewebsites.net/api/GetVisitCounts?';
+    //const functionApiUrl = 'http://localhost:7071/api/GetVisitCounts';
 
     async function getVisitCount() {
         try {
